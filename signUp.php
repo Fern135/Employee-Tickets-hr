@@ -1,3 +1,6 @@
+<?php 
+
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -20,20 +23,14 @@
                     <input type="password" name="password-main-login-index" id="psw-main" placeholder="password.........">
                     <br>
                     <input class="btn btn-outline-success btn-block" type="submit" name="submit" value="Submit">  
-                    <button class="btn btn-outline-primary btn-block" onclick="newLocation()">Movies / videos</button>
+                    <a href="./index.php" class="btn btn-outline-primary btn-block">Login</a>
+                    <a href="./videos.php" class="btn btn-outline-primary btn-block">videos/movies</a>
                 </form>
             </div>
             <div class="card-footer">
                 <?php include './bin/inc/footer.inc.php'; ?>
             </div>
         </div>
-
-        
-        <script>
-            function newLocation() {
-                window.location.href="./videos.php";
-            }
-        </script>
     </div>
 
     <?php include './bin/inc/js-inc/js.inc.php'; ?>

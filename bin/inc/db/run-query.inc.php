@@ -9,7 +9,7 @@
 
         function __destruct() {
             mysqli_close($this->link);
-            // mysqli_stmt_close($this->sql_statement);
+            mysqli_stmt_close($this->sql_statement);
         }
 
         // prepare the query
