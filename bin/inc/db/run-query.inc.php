@@ -10,6 +10,7 @@
         function __destruct() {
             mysqli_close($this->link);
             mysqli_stmt_close($this->sql_statement);
+            $this->link = NULL;
         }
 
         // prepare the query

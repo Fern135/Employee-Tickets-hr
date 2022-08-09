@@ -52,7 +52,7 @@ function test_input($data) {
                     <input type="password" name="password-main-login-index" id="psw-main" placeholder="password.........">
                     <br>
                     <input class="btn btn-outline-success btn-block" type="submit" name="submit" value="Submit">  
-                    <a href="./videos.php" class="btn btn-outline-primary btn-block">Movies / videos</a>
+                    <a href="./signUp.php" class="btn btn-outline-primary btn-block">Sign Up</a>
                 </form>
             </div>
             <div class="card-footer">

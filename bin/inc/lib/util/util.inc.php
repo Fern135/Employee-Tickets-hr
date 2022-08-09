@@ -41,8 +41,13 @@ class Util {
         return is_string($data);
     }
 
-    // returns true or false if $num is float
-    public function isFloat($num){
-        return is_real($num);
+    // checking if the email is correct format or not
+    public function eMailConfirm($email){
+        if(filter_var($email, FILTER_VALIDATE_EMAIL)) {
+            return true;
+
+        }else{
+            return false;
+        }
     }
 }
