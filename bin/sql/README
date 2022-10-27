@@ -1,0 +1,9 @@
+1. download xamp
+
+2. run xamp in admin mode
+
+3. open phpmyadmin
+
+4. configure sql to be used to your needs
+
+5. export sql and save into this folder

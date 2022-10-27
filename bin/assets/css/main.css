@@ -1,0 +1,16 @@
+
+/* center anything in the middle of the screen */
+.center {
+    text-align: center;
+    width: auto;
+    height: auto;
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -100px;
+}
+
+a {
+    text-decoration: none;
+}
